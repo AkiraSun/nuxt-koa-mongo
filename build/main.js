@@ -174,8 +174,8 @@ module.exports = {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa_bodyparser__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa_bodyparser___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_koa_bodyparser__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_koa_mount__ = __webpack_require__(12);
@@ -212,8 +212,8 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   // Catch and format the error in the upstream.
   // https://github.com/koajs/koa/wiki/Error-Handling
   app.use(function () {
-    var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
-      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+    var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
+      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
@@ -333,8 +333,8 @@ module.exports = require("nuxt");
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__model_user_model__ = __webpack_require__(8);
 
 
@@ -356,10 +356,10 @@ var UserController = function () {
 
     // 登录
     value: function () {
-      var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx) {
+      var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx) {
         var _ctx$request$body, username, password, user;
 
-        return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+        return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -407,8 +407,8 @@ var UserController = function () {
   }, {
     key: 'logout',
     value: function () {
-      var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2(ctx) {
-        return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
+      var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2(ctx) {
+        return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
@@ -467,8 +467,8 @@ var User = __WEBPACK_IMPORTED_MODULE_0__mongodb__["mongoose"].model('user', user
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa_router__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_koa_router__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__controller__ = __webpack_require__(6);
@@ -482,8 +482,8 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_koa_router___default.a();
 var middleware3 = function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
-    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
@@ -505,8 +505,8 @@ var middleware3 = function () {
 }();
 
 var middleware1 = function () {
-  var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2(ctx, next) {
-    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2(ctx, next) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -531,8 +531,8 @@ var middleware1 = function () {
 }();
 
 var middleware2 = function () {
-  var _ref3 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee3(ctx, next) {
-    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee3$(_context3) {
+  var _ref3 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee3(ctx, next) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
@@ -562,8 +562,8 @@ var users = [{ name: 'Alexandre' }, { name: 'Pooya' }, { name: 'Sébastien' }];
 /* harmony default export */ exports["a"] = function (app) {
   // Home page.
   router.get('/', middleware1, middleware2, middleware3, function () {
-    var _ref4 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee4(ctx, next) {
-      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee4$(_context4) {
+    var _ref4 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee4(ctx, next) {
+      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee4$(_context4) {
         while (1) {
           switch (_context4.prev = _context4.next) {
             case 0:
@@ -587,8 +587,8 @@ var users = [{ name: 'Alexandre' }, { name: 'Pooya' }, { name: 'Sébastien' }];
 
   // Get all users.
   router.get('/users', function () {
-    var _ref5 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee5(ctx, next) {
-      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee5$(_context5) {
+    var _ref5 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee5(ctx, next) {
+      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee5$(_context5) {
         while (1) {
           switch (_context5.prev = _context5.next) {
             case 0:
@@ -610,9 +610,9 @@ var users = [{ name: 'Alexandre' }, { name: 'Pooya' }, { name: 'Sébastien' }];
 
   // Get the user by id.
   router.get('/users/:id', function () {
-    var _ref6 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee6(ctx, next) {
+    var _ref6 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee6(ctx, next) {
       var id;
-      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee6$(_context6) {
+      return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee6$(_context6) {
         while (1) {
           switch (_context6.prev = _context6.next) {
             case 0:
@@ -710,8 +710,8 @@ module.exports = require("regenerator-runtime");
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_koa___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_koa__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_nuxt__ = __webpack_require__(5);
@@ -721,11 +721,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 
 var start = function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2() {
+  var _ref = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee2() {
     var _this = this;
 
     var app, host, port, config, nuxt, builder;
-    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
+    return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
@@ -756,8 +756,8 @@ var start = function () {
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__middlewares__["a" /* default */])(app);
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__mongodb__["connect"])();
             app.use(function () {
-              var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
-                return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_project_tools_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
+              var _ref2 = _asyncToGenerator( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.mark(function _callee(ctx, next) {
+                return __WEBPACK_IMPORTED_MODULE_0__Users_sunyangyang_Documents_git_github_nuxt_koa_node_modules_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
