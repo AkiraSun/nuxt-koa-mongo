@@ -10,7 +10,7 @@ export default (app) => {
   // session 配置信息
   const CONFIG = {
     key: 'koa:sess',
-    maxAge: 100000,
+    maxAge: 10000000,
     overwrite: true,
     httpOnly: true,
     signed: true,

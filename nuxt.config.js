@@ -11,6 +11,9 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      // { src: 'js/aliyun.js' }
     ]
   },
   /*
@@ -64,5 +67,8 @@ module.exports = {
       vueLoader.options.loaders.sass = 'vue-style-loader!css-loader!sass-loader'
     }
   },
-  plugins: [{src: '~plugins/element-ui'}]
+  plugins: [
+    {src: '~plugins/element-ui'}
+    // {src: '~plugins/aliyun.js'}
+  ]
 }

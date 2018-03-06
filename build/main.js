@@ -120,7 +120,10 @@ module.exports = {
   head: {
     title: 'starter',
     meta: [{ charset: 'utf-8' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' }, { hid: 'description', name: 'description', content: 'Nuxt.js project' }],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      // { src: 'js/aliyun.js' }
+    ]
   },
   /*
   ** Global CSS
@@ -166,7 +169,9 @@ module.exports = {
       vueLoader.options.loaders.sass = 'vue-style-loader!css-loader!sass-loader';
     }
   },
-  plugins: [{ src: '~plugins/element-ui' }]
+  plugins: [{ src: '~plugins/element-ui'
+    // {src: '~plugins/aliyun.js'}
+  }]
 };
 
 /***/ },
@@ -201,7 +206,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
   // session 配置信息
   var CONFIG = {
     key: 'koa:sess',
-    maxAge: 100000,
+    maxAge: 10000000,
     overwrite: true,
     httpOnly: true,
     signed: true,
